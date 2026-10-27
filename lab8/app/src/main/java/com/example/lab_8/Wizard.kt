@@ -26,4 +26,9 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     fun restoreMana(amount: Int) {
         mana = minOf(100, mana + amount)
     }
+
+    // Lab Participation Exercise
+    fun train() {
+        // Need at least 5 mana, then we increase spell power by 1 and decrease mana by 5
+    }
 }
