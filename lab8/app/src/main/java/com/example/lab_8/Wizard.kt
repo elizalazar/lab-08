@@ -30,5 +30,9 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     // Lab Participation Exercise
     fun train() {
         // Need at least 5 mana, then we increase spell power by 1 and decrease mana by 5
+        if (mana >=5){
+            mana -= 5
+            spellPower += 1
+        }
     }
 }
