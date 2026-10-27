@@ -21,4 +21,7 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
             }
         }
     }
+
+    // Lab Walkthrough: Step 3 a
+    fun restoreMana(amount: Int) { }
 }
